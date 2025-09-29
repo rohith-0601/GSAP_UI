@@ -1,0 +1,29 @@
+.cards-outer {
+  height: 600vh; /* total scroll space */
+  position: relative;
+}
+
+.cards-inner {
+  position: sticky;
+  top: 0;        /* stick from very top */
+  height: 100vh; /* full viewport */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-row {
+  display: flex;
+  transition: transform 0.1s linear;
+}
+
+.card {
+  flex: 0 0 550px;
+  height: 50vh; /* half the screen */
+  margin-right: 40px;
+  background: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
