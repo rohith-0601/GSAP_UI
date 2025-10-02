@@ -2,7 +2,7 @@ import React from 'react'
 
 const FigmaUI = () => {
   return (
-    <div>FigmaUI</div>
+    <div>will work</div>
   )
 }
 
