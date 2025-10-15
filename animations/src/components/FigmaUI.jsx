@@ -3,7 +3,7 @@ import React from 'react'
 const FigmaUI = () => {
   return (
     <>
-    <div>milan work</div>
+    <div>milan work day 2</div>
     </>
     
   )
